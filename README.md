@@ -56,3 +56,37 @@ Replace `main.py` with the actual name of your script. This will perform the dat
 
 ## Acknowledgments
 - Data provided from Kaggle https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+## Project Details
+
+### Objective
+To identify key factors that significantly influence the selling price of used cars and uncover underlying market trends.
+
+### Hypotheses
+- **Year of Manufacture:** Newer cars typically sell at higher prices.
+- **Make and Model:** Certain makes and models are more desirable, fetching higher prices.
+- **Odometer Reading:** Lower mileage cars tend to sell for more.
+- **Condition:** Cars in better condition command higher prices.
+- **Color:** Popular colors may affect selling prices.
+- **Seasonality:** Seasonal trends could influence car prices and demand.
+
+### Data Analysis Steps
+1. **Data Cleaning:** Address missing or inconsistent entries, focusing on crucial columns like year, odometer, condition, and selling price.
+2. **Exploratory Data Analysis (EDA):** Visualize selling price distributions by year, make, model, etc., to detect patterns.
+3. **Feature Engineering:** Develop new features, such as car age, to deepen the analysis of how car attributes relate to selling price.
+4. **Statistical Analysis:** Apply regression models to assess the influence of various factors on selling prices.
+5. **Trend Analysis:** Examine sale date data for seasonal trends.
+
+### Expected Outcomes
+- Key factors significantly impacting used car selling prices.
+- Insights into preferences for certain car attributes (e.g., color, make, model) within the market.
+- Any seasonal trends affecting prices.
+
+### Value of the Study
+- **For Sellers:** Insights on positive price factors can enhance market positioning.
+- **For Buyers:** The study guides on optimal buying times and types for value maximization.
+- **For Dealerships:** Market trend knowledge supports inventory and pricing strategies.
