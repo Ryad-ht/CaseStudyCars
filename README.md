@@ -54,11 +54,5 @@ python main.py
 
 Replace `main.py` with the actual name of your script. This will perform the data cleaning, EDA, and regression analysis, outputting the results to your terminal or saving them as files, depending on how you've set up your script.
 
-## Contributing
-Contributions to improve the analysis or extend the project are welcome. Please follow the standard fork-branch-PR workflow.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 - Data provided from Kaggle https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data
