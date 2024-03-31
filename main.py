@@ -34,13 +34,6 @@ def visualize_data(df):
     plt.ylabel('Average Selling Price')
     plt.show()
 
-    plt.figure(figsize=(10, 6))
-    sns.scatterplot(x='odometer', y='sellingprice', data=df, alpha=0.5)
-    plt.title('Odometer Reading vs. Selling Price')
-    plt.xlabel('Odometer')
-    plt.ylabel('Selling Price')
-    plt.show()
-
 def main():
     file_path = 'car_prices.csv'
     df = load_and_clean_data(file_path)
