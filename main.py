@@ -2,9 +2,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
 
 def load_and_clean_data(file_path):
     df = pd.read_csv(file_path)
@@ -44,24 +41,12 @@ def visualize_data(df):
     plt.ylabel('Selling Price')
     plt.show()
 
-def train_model(df):
-    X = df[['year', 'odometer']]
-    y = df['sellingprice']
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    model = LinearRegression()
-    model.fit(X_train, y_train)
-    y_pred = model.predict(X_test)
-    mse = mean_squared_error(y_test, y_pred)
-    print(f'Mean Squared Error (MSE): {mse}')
-    print(f'Coefficients: Year = {model.coef_[0]}, Odometer = {model.coef_[1]}')
-
 def main():
     file_path = 'car_prices.csv'
     df = load_and_clean_data(file_path)
     df = remove_outliers(df, 'sellingprice')
     df = remove_outliers(df, 'odometer')
     visualize_data(df)
-    train_model(df)
 
 if __name__ == "__main__":
     main()
