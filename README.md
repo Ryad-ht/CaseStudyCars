@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project aims to explore and analyze used car sales data to identify key factors influencing the selling prices of used cars. Through exploratory data analysis (EDA) and regression analysis, we seek to uncover trends and relationships within the data that can provide insights for sellers, buyers, and dealerships.
-
+ 
 ## Features
 - Data Cleaning and Preprocessing
 - Exploratory Data Analysis (EDA)
